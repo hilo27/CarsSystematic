@@ -25,7 +25,8 @@ public class Cars extends HttpServlet {
     Connection connection = null;
     PreparedStatement selectCars = null;
     ResultSet resultSet = null;
-    
+
+    // тут тестовый коментарий
 
     private Collection getAllModels() throws SQLException {
         Collection models = new ArrayList();
