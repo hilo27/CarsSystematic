@@ -14,7 +14,7 @@ import java.util.Collection;
 
 /**
  *
- * @author Pyc
+ * @author Ruslan
  */
 public class Cars extends HttpServlet {
         
@@ -26,22 +26,7 @@ public class Cars extends HttpServlet {
     PreparedStatement selectCars = null;
     ResultSet resultSet = null;
     
-    
-//    public ResultSet getCars() {
-//       try {
-//            resultSet = selectCars.executeQuery();            
-//            while (resultSet.next()){
-//                resultSet.getString("model");
-//                resultSet.getString("color");
-//                resultSet.getString("equipment");                
-//            }            
-//        } catch (SQLException ex) {
-//         System.err.println("Unable to connect to database.");
-//        }
-//        return resultSet;          
-//    
-//    }
-    
+
     private Collection getAllModels() throws SQLException {
         Collection models = new ArrayList();
         
