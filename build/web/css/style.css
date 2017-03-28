@@ -1,0 +1,10 @@
+
+ .inlineTable {
+            display: inline-block;
+}
+
+.floatedTable {
+
+            float:left;
+      
+}
